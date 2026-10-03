@@ -1,14 +1,14 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "1.0.0",
-    "title": "REST API",
-    "description": ""
+    "title": "IronTrack API",
+    "description": "Backend API for tracking strength and fitness progression.",
+    "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "irontrack-api-m4om.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {

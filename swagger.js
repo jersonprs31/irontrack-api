@@ -5,12 +5,12 @@ const doc = {
     title: 'IronTrack API',
     description: 'Backend API for tracking strength and fitness progression.'
   },
-  host: 'irontrack-api-m4om.onrender.com', 
-  schemes: ['http', 'https']
+  host: 'irontrack-api-m4om.onrender.com',
+  schemes: ['https']
 };
 
 const outputFile = './swagger.json';
 const endpointsFiles = ['./routes/index.js'];
 
 
-swaggerAutogen(outputFile, endpointsFiles);
+swaggerAutogen(outputFile, endpointsFiles, doc);
